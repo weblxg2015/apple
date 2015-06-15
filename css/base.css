@@ -39,6 +39,9 @@ ul{
     color: #ffffff;
     font-size: 1.2em;
 }
+.menu li a{
+    color: #ffffff;
+}
 .menu li:hover a{
     opacity: 0.6;
     text-decoration: none;

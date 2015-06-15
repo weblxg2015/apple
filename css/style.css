@@ -796,10 +796,36 @@ frame3 2s linear;
 }
 .macbox9{
     text-align: center;
-    width: 25%;
+    width: 20%;
     height: 250px;
+    position: relative;
+    line-height: 25px;
 }
-
+.macbox9_text1{
+    font-size: 20px;
+}
+.macbox9_text2{
+    font-size: 13px;
+    color: #666;
+}
+.macbox9_text3{
+    color: #08c;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+.macbox9_text4{
+    /*color: #08c;*/
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+.footerli{
+    color: #000000;
+    font-weight: bolder;
+}
 @media screen and (max-width: 800px){
 
     .mac_menubox1{
@@ -828,6 +854,18 @@ frame3 2s linear;
     .macbox6{
         width: 100%;
     }
+
+    .macbox8{
+        flex-direction: column;
+    }
+    .macbox9{
+        width: 100%;
+    }
+    .macbox9_text3{
+        left: 45%;
+        /*top: 50px;*/
+    }
+
 }
 
 @media screen and (max-width: 600px){
@@ -843,6 +881,7 @@ frame3 2s linear;
     .mac_imgtext{
         font-size: 15px;
     }
+
 }
 
 /*Mac end*/
