@@ -723,6 +723,10 @@ frame3 2s linear;
 .mac_img1{
     position: relative;
     left: 50%;
+    width: 50%;
+}
+.mac_img1:hover {
+    -webkit-animation: frame1 2s linear;
 }
 .mac_imgtext{
     position: absolute;
@@ -730,6 +734,70 @@ frame3 2s linear;
     top: 50%;
     font-size: 35px;
     font-family: "微软雅黑", "黑体";
+}
+.mac_box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.mac_box2{
+   width: 33%;
+    height: 274px;
+    background: url("../images/macimg1.jpg");
+    background-position: center center;
+}
+.mac_box3{
+    width: 33%;
+    height: 274px;
+    background: url("../images/macimg2.jpg");
+    background-position: center center;
+}
+.mac_box4{
+    width: 33.5%;
+    height: 274px;
+    background: url("../images/macimg3.jpg");
+    background-position: center center;
+}
+.macbox5{
+    width: 100%;
+    background: #f2f2f2;
+    padding-top: 20px;
+}
+.macbox6{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.macbox6img{
+
+}
+.macbox6text{
+     font-size: 30px;
+}
+.macbox6text2{
+    font-size: 22px;
+    color: #08c;
+    cursor: pointer;
+}
+.macbox7{
+    padding-top: 30px;
+    width: 100%;
+    background: #f2f2f2;
+}
+.macbox8{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.macbox9{
+    text-align: center;
+    width: 25%;
+    height: 250px;
 }
 
 @media screen and (max-width: 800px){
@@ -745,6 +813,21 @@ frame3 2s linear;
     .mac_imgtext{
         font-size: 20px;
     }
+    .mac_box1{
+        flex-direction: column;
+    }
+    .mac_box2{
+        width: 100%;
+    }
+    .mac_box3{
+        width: 100%;
+    }
+    .mac_box4{
+        width: 100%;
+    }
+    .macbox6{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -756,6 +839,9 @@ frame3 2s linear;
     .mac_menubox{
         top: -10px;
         transform: scaleY(0.5);
+    }
+    .mac_imgtext{
+        font-size: 15px;
     }
 }
 
